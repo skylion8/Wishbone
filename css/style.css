@@ -58,6 +58,7 @@ header nav ul li:last-of-type a{
 .main_baner article{
     max-width: 520px;
     padding-left: 100px;
+
 }
 section article p:first-of-type{
     font-family: 'Poppins', sans-serif;
@@ -163,6 +164,35 @@ section aside div p{
     color: #645C55;
     padding-left: 30px;
 }
+.fasad{
+    background-image: url('../img/Fasad.jpg');
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fasad_conteiner{
+    max-width: 300px;
+    margin-right: 60px;
+}
+.fasad_conteiner h3{
+    font: 14px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.fasad_conteiner p{
+    font: 16px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #645C55;
+}
 .section_process{background: #E5E5E5;}
 .Our_process{
     font-family: 'Poppins', sans-serif;
@@ -193,6 +223,7 @@ section aside div p{
     margin: auto;
     justify-content: center;
     max-width: 1520px;
+    padding-bottom: 60px;
 }
 .process div h4{
     font-family: 'Poppins', sans-serif;
@@ -214,4 +245,115 @@ section aside div p{
     text-align: center;
     color: #645C55;
     width: 292px;
+}
+.stairs{
+    background-image: url('../img/stairs.jpg');
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.stairs_conteiner{
+    max-width: 300px;
+    margin-right: 60px;
+}
+.stairs_conteiner h3{
+    font: 14px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.stairs_conteiner p{
+    font: 16px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #645C55;
+}
+.prior_clients{
+    background: #403E3B;
+    display: flex;
+    justify-content: center;
+
+}
+
+.clients_conteiner{
+    padding-top: 60px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    align-items: center
+}
+.clients{
+    max-width: 460px;
+}
+.clients h4{
+    font: 14px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ECE7E4;
+}
+.clients h3{
+    font: 32px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    color: #ECE7E4;
+}
+.clients p{
+    font: 32px 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+}
+.client_logo{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 450px;
+    align-content: space-between;
+    height: 290px;
+}
+.client_logo li{
+    margin-right: 96px;
+    list-style: none;
+}
+.swirling_staircase{
+    background-image: url('../img/swirling staircase.jpg');
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.swirling_staircase_conteiner{
+    max-width: 300px;
+    margin-left: 60px;
+}
+.swirling_staircase_conteiner h3{
+    font: 14px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+.swirling_staircase_conteiner p{
+    font: 16px 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #645C55;
 }
