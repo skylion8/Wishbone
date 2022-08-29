@@ -3,18 +3,24 @@
     margin: 0;
     text-decoration: none;
 }
+.d-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 header{
-    padding-top: 22px; padding-bottom: 22px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 #custom_wrapper{
     max-width: 1550px;
 }
 .conteiner{
     margin: auto;
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 1550px;
+    max-width: 1200px;
     }
 
 header nav ul li {
@@ -355,4 +361,101 @@ section aside div p{
     font-weight: 400;
     line-height: 24px;
     color: #645C55;
+}
+.featured_project{
+    background: #F7F7F7;
+    padding-bottom: 111px;
+    padding-top: 113px;
+}
+.featured_project h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+    margin-bottom: 15px;
+}
+.featured_project p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    width: 387px;
+}
+.featured_project .item:hover .description{
+    bottom: 0;
+}
+.featured_project .item .description{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    bottom: -100%;
+    transition: 0.4s;
+}
+.featured_project .description h4 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    display: block;
+}
+.featured_project .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+.featured_project .description a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    background: #1B1A1A;
+    border-radius: 14px;
+    padding: 11px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-content {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    border: none;
+    background: none;
 }
