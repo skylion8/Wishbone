@@ -446,6 +446,7 @@ section aside div p{
     background: none;
     border: none;
     padding: 0;
+    text-align: center;
 }
 .ui-accordion .ui-accordion-header{
     font-family: 'Poppins', sans-serif;
