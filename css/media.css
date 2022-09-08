@@ -1,0 +1,52 @@
+@media (max-width: 640px) {
+    nav ul li a {
+        font-size: 11px;
+    }
+    nav li a:after {
+        font-size: 0.6rem;
+    }
+    .open-overlay {
+        right: 1rem;
+    }
+    nav li a:before {
+        width: 15px;
+    }
+}
+@media screen and (max-width: 767px){
+
+.overlay-navigation{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+}
+nav li a:before {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 100;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all .2s linear;
+}
+
+nav li a:after {
+    content: attr(data-content);
+    font-size: 0.7rem;
+    transition: all .2s linear;
+    opacity: 0;
+    position: absolute;
+    z-index: 90;
+    color: #fff;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: -50px;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+    letter-spacing: 0;
+}
